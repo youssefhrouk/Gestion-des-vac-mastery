@@ -1,0 +1,367 @@
+body,
+html {
+  height: 100%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Kanit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+.bg-img {
+  /* background-image: url("https://ecampus-fssm.uca.ma/pluginfile.php/1/theme_moove/sliderimage1/1644966511/FSSM_image.jpg"); */
+  min-height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  background-color:#c0c0c0 ;
+}
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px;
+  max-width: 350px;
+  height: 400px;
+  padding: 16px;
+  background-image: url("bg-cool.png");
+  border-radius: 5%;
+}
+
+.btn {
+  background-color: #38b673;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #BEA6A0;
+  color: white;
+  text-align: center;
+}
+
+#h1 {
+  text-align: center;
+}
+
+.rounded-pill {
+  /* float: right; */
+  margin-right: 0px;
+  /* margin-left: auto ; */
+}
+
+
+body {
+  background: #fcfcfc;
+}
+
+footer {
+  position: absolute;
+  bottom: 5;
+  left: 5;
+  right: 5;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-links a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+
+.social-links a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+
+
+.navbar {
+  width: 100%;
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  
+}
+.navbar div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:120px;
+  background-image: url("bg-cool.png");
+}
+.navbar div a{
+  display: inline-flex;
+  align-items: center;
+  color:#123668;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover{
+  color:#38b673
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 25px 0;
+  font-size: 22px;
+  border-bottom: 1px solid #ebebeb;
+  color: #666666;
+}
+
+.read .create-contact {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #38b673;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  margin: 15px 0;
+}
+
+.read .create-contact:hover {
+  background-color: #32a367;
+}
+
+.read .pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.read .pagination a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #a5a7a9;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  margin: 15px 0 15px 5px;
+}
+
+.read .pagination a:hover {
+  background-color: #999b9d;
+}
+
+.read table {
+  width: 100%;
+  padding-top: 30px;
+  border-collapse: collapse;
+}
+
+.read table thead {
+  background-color: #ebeef1;
+  border-bottom: 1px solid #d3dae0;
+}
+
+.read table thead td {
+  padding: 10px;
+  font-weight: bold;
+  color: #767779;
+  font-size: 14px;
+}
+
+.read table tbody tr {
+  border-bottom: 1px solid #d3dae0;
+}
+
+.read table tbody tr:nth-child(even) {
+  background-color: #fbfcfc;
+}
+
+.read table tbody tr:hover {
+  background-color: #376ab7;
+}
+
+.read table tbody tr:hover td {
+  color: #FFFFFF;
+}
+
+.read table tbody tr:hover td:nth-child(1) {
+  color: #FFFFFF;
+}
+
+.read table tbody tr td {
+  padding: 10px;
+}
+
+.read table tbody tr td:nth-child(1) {
+  color: #a5a7a9;
+}
+
+.read table tbody tr td.actions {
+  padding: 8px;
+  text-align: right;
+}
+
+.read table tbody tr td.actions .edit,
+.read table tbody tr td.actions .trash {
+  display: inline-flex;
+  text-align: right;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 12px;
+}
+
+.read table tbody tr td.actions .trash {
+  background-color: #b73737;
+}
+
+.read table tbody tr td.actions .trash:hover {
+  background-color: #a33131;
+}
+
+.read table tbody tr td.actions .edit {
+  background-color: #37afb7;
+}
+
+.read table tbody tr td.actions .edit:hover {
+  background-color: #319ca3;
+}
+
+.update form {
+  padding: 15px 0;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.update form label {
+  display: inline-flex;
+  width: 400px;
+  padding: 10px 0;
+  margin-right: 25px;
+}
+
+.update form input {
+  padding: 10px;
+  width: 400px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+}
+
+.update form input[type="submit"] {
+  display: block;
+  background-color: #38b673;
+  border: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 15px;
+}
+
+.update form input[type="submit"]:hover {
+  background-color: #32a367;
+}
+
+.delete .yesno {
+  display: flex;
+}
+
+.delete .yesno a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #38b673;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  margin: 15px 10px 15px 0;
+}
+
+.delete .yesno a:hover {
+  background-color: #32a367;
+}

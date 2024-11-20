@@ -1,0 +1,140 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
+    
+    }
+form {
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    background: rgb(117, 117, 21);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    opacity: .7;
+    border-radius: 10px;
+    width: 30vw;
+    height: 35vw;
+}
+form:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(100px);
+    margin: -20px;
+  }
+form p {
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    letter-spacing: 3px;
+}
+div form h3{
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 2rem;
+}
+.login-from{
+    text-align: center;
+    border: 1px solid rgb(153, 63, 175);
+}
+.login-logo{
+    width: 10px;
+}
+.login {
+        margin:10% auto ;
+        width: 300px;
+        
+        }
+form .radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 10px;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+body {
+    font-family: 'Kanit', sans-serif;
+    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
+    
+    }
+html,body { 
+	height: 100%; 
+}
+
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+} 
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+.erreur{
+    color: red;
+    font-size: 12px;
+}
